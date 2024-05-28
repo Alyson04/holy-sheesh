@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+    .information{
+      border: 1px solid;
+      margin: 20px;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 1px 2px;
+      width: 600px;
+    }
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<form class="student_reg" action="https://formspree.io/f/xvoennad" method="post">
+
+
+
+<div class="information">
+<h1>Class Registration</h1>
+<h4>Name*</h4>
+<input type="text" name="first_name" placeholder="First Name" required>
+<input type="text" name="mid_name" placeholder="Middle Name" required>
+<input type="text" name="last_name" placeholder="Last Name" required>
+
+<h4>Email Address*</h4>
+<input type="text" name="email_add" placeholder="Enter email" required>
+
+<h4>Contact Number*</h4>
+<input type="text" name="phone_num" placeholder="Ex:1234-567-8910 " required>
+
+<h4>Section:</h4>
+<input type="text" name="stud_section" placeholder="Enter your Section here"required>
+
+<h4>Student ID:</h4>
+<input type="text" name="stud_ID" placeholder="Enter your Student ID here"required>
+
+<h4>Gender: </h4>
+<select class="gender" name="gender"required>
+<option value="title" selected>Please select</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="N/A">N/A</option>
+</select>
+
+<h4>LIST OF CLASSES*</h4>
+<select class="classes_list" name="ListOfClasses"required>
+  <option value="title">Please select</option>
+  <option value="COMP 20083">COMP 20083   Object Oriented Programming</option>
+  <option value="COMP 20093">COMP 20093   Information Management</option>
+  <option value="COMP 20143">COMP 20143   Human Computer Interaction</option>
+  <option value="COMP 20163">COMP 20163   Web Development</option>
+  <option value="COMP 20203">COMP 20203   Quantitative Methods with Modeling and Simulation</option>
+  <option value="COMP 40033">COMP 40033   Business Intelligence</option>
+  <option value="ICTE 10043">ICTE 10043   Network Administration</option>
+  <option value="PHED 10042">PHED 10042   Team Sports</option>
+</select>
+
+
+<h4>COURSE*</h4>
+<select class="course_Name" name="courses">
+  <option value="title">Please select</option>
+  <option value="DCVET">Diploma in Civil Engineering Technology(DCVET)</option>
+  <option value="DCET">Diploma in Computer Engineering Technology(DCET)</option>
+  <option value="DIT">Diploma in Information Technology(DIT)</option>
+  <option value="DOMT">Diploma in Office Management(DOMT)</option>
+</select>
+<br>
+<br>
+<br>
+
+
+<button type="submit" href="">SUBMIT</button>
+<button type="reset" href="">CLEAR</button>
+</div>
+</form>
+  </body>
+</html>
